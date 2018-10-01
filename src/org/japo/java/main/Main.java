@@ -43,6 +43,6 @@ public class Main {
         s = gc.get(Calendar.SECOND);
         
         // Mensaje
-        System.out.printf("Hora del sistema ....: %02d:%02d:%02d\n", h, m, s);
+        System.out.printf("Hora del sistema ....: %02d:%02d:%02d%n", h, m, s);
     }
 }
